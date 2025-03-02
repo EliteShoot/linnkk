@@ -944,16 +944,15 @@
                                         <input type="text" id="phone" name="phone" placeholder="Phone" required="y">
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-6">
-                                   <div class="form-input wow fadeInRight" data-wow-delay=".6s">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="form-input wow fadeInRight" data-wow-delay=".6s">
                                         <div class="tj-nice-select-box">
                                             <div class="tj-select">
-                                                <select>
-                                                    <option value="2">Choose a job type</option>
-                                                    <option value="2">Window Cleaning</option>
-                                                    <option value="2">Pressure Washing</option>
-                                                    <option value="2">Mobile-Vehicle Detailing</option>
+                                                <select name="job-type" id="job-type" required>
+                                                    <option value="" disabled selected>Please Choose A Job Type</option>
+                                                    <option value="home-renovation">Window-Cleaning</option>
+                                                    <option value="constructions">Pressure Washing</option>
+                                                    <option value="architecture-design">Mobile Vehicle Detailing</option>
                                                 </select>
                                             </div>
                                         </div>
